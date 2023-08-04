@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cup Cake Shop</title>
+
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel="stylesheet">
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <!--External Stylesheet-->
+    <link rel="stylesheet" href="shop.css">
+
+    <!--Font awesome icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    
+</head>
+<body>
+
+    <!--header-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid pt-2 pb-2">
+          <a class="ps-lg-5 ps-md-4 ps-sm-1 navbar-brand display-1" href="#"> Ecommerce</a>
+          <a href="#card" class=" me-0 float-end">
+            <i class="bi bi-bag float-end h4 text-black pe-lg-5 pe-md-4 pe-sm-1" id="cart-icon"  ></i>
+          </a>
+           <!--Sidebar-->
+           <a  id="card">
+           <div class="cart">
+
+            <h2 class="cart-title">
+                 Your cart
+            </h2>
+            <div class="cart-content">
+                <div class="cart-box cart-box1 ">
+                    <img src="https://www.scrumptiously.com/wp-content/uploads/2023/03/OreoCupcakes.webp" alt="" class="cart-img">
+                    <div class="detail-box">
+                        <div class="cart-product-title">
+                            Oreo
+                        </div>
+                        <div class="cart-price">
+                            10
+                        </div>
+                        <input type="number" name="" id="" value="0"  start="0" class="cart-quantity">
+                    </div>
+                    <i class='bx bxs-trash-alt cart-remove '></i>
+                </div>
+                <div class="cart-box cart-box2">
+                    <img src="https://www.ifyougiveablondeakitchen.com/wp-content/uploads/2022/03/coconut-cupcakes-open-graph-image.jpg" alt="" class="cart-img">
+                    <div class="detail-box">
+                        <div class="cart-product-title">
+                            Coconut
+                        </div>
+                        <div class="cart-price">
+                            5
+                        </div>
+                        <input type="number" name="" id="" value="0"  start="0" class="cart-quantity">
+                    </div>
+                    <i class='bx bxs-trash-alt cart-remove '></i>
+                </div>
+                <div class="cart-box cart-box3">
+                    <img src="https://stordfkenticomedia.blob.core.windows.net/df-us/rms/media/recipemediafiles/recipes/retail/desktop%20images/2018_small-batch-chocolate-buttercream-cupcakes_20357_desktop.jpg?ext=.jpg" alt="" class="cart-img">
+                    <div class="detail-box">
+                        <div class="cart-product-title">
+                            Chocolate
+                        </div>
+                        <div class="cart-price">
+                            15
+                        </div>
+                        <input type="number" name="" id="" value="0"  start="0" class="cart-quantity">
+                    </div>
+                    <i class='bx bxs-trash-alt cart-remove '></i>
+                </div>
+                <div class="cart-box cart-box4">
+                    <img src="https://www.biggerbolderbaking.com/wp-content/uploads/2020/08/Red-Velvet-Cupcakes-WS-Thumbnail.jpg" alt="" class="cart-img">
+                    <div class="detail-box">
+                        <div class="cart-product-title">
+                            Red Velvet
+                        </div>
+                        <div class="cart-price">
+                            20
+                        </div>
+                        <input type="number" name="" id="" value="0"  start="0" class="cart-quantity">
+                    </div>
+                    <i class='bx bxs-trash-alt cart-remove '></i>
+                </div>
+                <div class="cart-box cart-box5">
+                    <img src="https://images.pexels.com/photos/635409/pexels-photo-635409.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" class="cart-img">
+                    <div class="detail-box">
+                        <div class="cart-product-title">
+                            Peanut butter
+                        </div>
+                        <div class="cart-price">
+                            20
+                        </div>
+                        <input type="number" name="" id="" value="0"  start="0" class="cart-quantity">
+                    </div>
+                    <i class='bx bxs-trash-alt cart-remove '></i>
+                </div>
+                <div class="cart-box cart-box6">
+                    <img src="https://images.pexels.com/photos/14105/pexels-photo-14105.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" class="cart-img">
+                    <div class="detail-box">
+                        <div class="cart-product-title">
+                            Aloha
+                        </div>
+                        <div class="cart-price">
+                            25
+                        </div>
+                        <input type="number" name="" id="" value="0"  start="0" class="cart-quantity">
+                    </div>
+                    <i class='bx bxs-trash-alt cart-remove '></i>
+                </div>
+                <div class="cart-box cart-box7">
+                    <img src="https://www.barleyandsage.com/wp-content/uploads/2023/03/brown-butter-almond-cupcakes-1200x1200-1.jpg" alt="" class="cart-img">
+                    <div class="detail-box">
+                        <div class="cart-product-title">
+                            Almond
+                        </div>
+                        <div class="cart-price">
+                            20
+                        </div>
+                        <input type="number" name="" id="" value="0"  start="0" class="cart-quantity">
+                    </div>
+                    <i class='bx bxs-trash-alt cart-remove '></i>
+                </div>
+                <div class="cart-box cart-box8">
+                    <img src="https://images.pexels.com/photos/1120464/pexels-photo-1120464.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" class="cart-img">
+                    <div class="detail-box">
+                        <div class="cart-product-title">
+                            Earl Grey
+                        </div>
+                        <div class="cart-price">
+                            30
+                        </div>
+                        <input type="number" name="" id="" value="0"  start="0" class="cart-quantity">
+                    </div>
+                    <i class='bx bxs-trash-alt cart-remove '></i>
+                </div>
+                
+            </div>
+
+            
+
+            <div class="total">
+                <div class="total-title">
+                    Total
+                </div>
+                <div class="total-price">
+                    $0
+                </div>
+                
+            </div>
+            <button type="button " class="btn-buy">
+                Buy Now
+            </button>
+            <!--Cart close-->
+            <i class="bx bx-x" id="close-cart"></i>
+
+           </div>
+           </a>
+
+
+        </div>
+    </nav>
+
+    <!--Sidebar-->
+
+   
+
+    <!--sidebar closed-->
+   
+
+    <!--Heading-->
+
+    <div class="container">
+        <div class="row">
+          <div class="col mt-3 text-center">
+            <h1>Cup Cake Shop</h1>
+          </div>
+        </div>
+      </div>
+       
+
+
+
+    <div class="container-fluid">
+
+        <div class="row m-2 py-5">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+
+                <div class="card h-100 product-box">
+
+                    <img src="https://www.scrumptiously.com/wp-content/uploads/2023/03/OreoCupcakes.webp" class="card-img-top product-img" alt="Oreo">
+
+                    <div class="card-body">
+                        <h5 class="card-title product-title">Oreo</h5>
+                        <p class="card-text  price">$10</p>
+                        <i class="bi bi-bag float-end add-cart" id="myIcon"></i>
+                     </div>
+
+                </div>
+               
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+
+                <div class="card h-100 product-box">
+
+                    <img src="https://www.ifyougiveablondeakitchen.com/wp-content/uploads/2022/03/coconut-cupcakes-open-graph-image.jpg" class="card-img-top product-img" alt="Coconut">
+
+                    <div class="card-body">
+                        <h5 class="card-title product-title" >Coconut</h5>
+                        <p class="card-text price">$5</p>
+                        <i class="bi bi-bag float-end add-cart"></i>
+                        
+                       
+                     </div>
+
+                </div>
+              
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+
+                <div class="card h-100 product-box">
+
+                    <img src="https://stordfkenticomedia.blob.core.windows.net/df-us/rms/media/recipemediafiles/recipes/retail/desktop%20images/2018_small-batch-chocolate-buttercream-cupcakes_20357_desktop.jpg?ext=.jpg" class="card-img-top product-img" alt="Chocolate">
+
+                    <div class="card-body">
+                        <h5 class="card-title product-title" >Chocolate</h5>
+                        <p class="card-text price">$15</p>
+                        <i class="bi bi-bag float-end add-cart"></i>
+                        
+                       
+                     </div>
+
+                </div>
+              
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+
+                <div class="card h-100 product-box">
+
+                    <img src="https://www.biggerbolderbaking.com/wp-content/uploads/2020/08/Red-Velvet-Cupcakes-WS-Thumbnail.jpg" class="card-img-top product-img" alt="Red Velvet">
+
+                    <div class="card-body">
+                        <h5 class="card-title product-title" >Red Velvet</h5>
+                        <p class="card-text price">$20</p>
+                        <i class="bi bi-bag float-end add-cart"></i>
+                        
+                       
+                     </div>
+
+                </div>
+              
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+
+                <div class="card h-100 product-box">
+
+                    <img src="https://images.pexels.com/photos/635409/pexels-photo-635409.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top product-img" alt="Peanut butter">
+
+                    <div class="card-body">
+                        <h5 class="card-title product-title" >Peanut butter</h5>
+                        <p class="card-text price">$20</p>
+                        <i class="bi bi-bag float-end add-cart"></i>
+                        
+                       
+                     </div>
+
+                </div>
+              
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+
+                <div class="card h-100 product-box">
+
+                    <img src="https://images.pexels.com/photos/14105/pexels-photo-14105.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top product-img" alt="Aloha ">
+
+                    <div class="card-body">
+                        <h5 class="card-title product-title" >Aloha </h5>
+                        <p class="card-text price">$25</p>
+                        <i class="bi bi-bag float-end add-cart"></i>
+                        
+                       
+                     </div>
+
+                </div>
+              
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+
+                <div class="card h-100 product-box">
+
+                    <img src="https://www.barleyandsage.com/wp-content/uploads/2023/03/brown-butter-almond-cupcakes-1200x1200-1.jpg" class="card-img-top product-img" alt="Almond">
+
+                    <div class="card-body">
+                        <h5 class="card-title product-title" >Almond </h5>
+                        <p class="card-text price">$20</p>
+                        <i class="bi bi-bag float-end add-cart"></i>
+                        
+                       
+                     </div>
+
+                </div>
+              
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+
+                <div class="card h-100 product-box">
+
+                    <img src="https://images.pexels.com/photos/1120464/pexels-photo-1120464.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top product-img" alt="Earl Grey">
+
+                    <div class="card-body">
+                        <h5 class="card-title product-title ">Earl Grey </h5>
+                        <p class="card-text price">$30</p>
+                        <i class="bi bi-bag float-end add-cart"></i>
+                        
+                       
+                     </div>
+
+                </div>
+
+              
+            </div>
+
+        </div>
+      
+        
+        
+    </div>
+
+
+
+
+
+
+
+    <!--External JS-->
+    <script src="shop.js"></script>
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>
